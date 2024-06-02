@@ -34,7 +34,7 @@ composer require kutia-software-company/larafirebase
 
 **Copy Config**
 
-Run `php artisan vendor:publish --provider="Kutia\Larafirebase\Providers\LarafirebaseServiceProvider"` to publish the `larafirebase.php` config file.
+Run `php artisan vendor:publish --provider="dev0ehab\Larafirebase\Providers\LarafirebaseServiceProvider"` to publish the `larafirebase.php` config file.
 
 **Get Athentication Key**
 
@@ -53,7 +53,7 @@ Follow the steps below to find how to use the package.
 Example usage in **Controller/Service** or any class:
 
 ```php
-use Kutia\Larafirebase\Facades\Larafirebase;
+use dev0ehab\Larafirebase\Facades\Larafirebase;
 
 class MyController
 {
@@ -94,7 +94,7 @@ Example usage in **Notification** class:
 
 ```php
 use Illuminate\Notifications\Notification;
-use Kutia\Larafirebase\Messages\FirebaseMessage;
+use dev0ehab\Larafirebase\Messages\FirebaseMessage;
 
 class SendBirthdayReminder extends Notification
 {

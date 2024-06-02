@@ -1,6 +1,6 @@
 <?php
 
-namespace Kutia\Larafirebase\Exceptions;
+namespace dev0ehab\Larafirebase\Exceptions;
 
 use Exception;
 

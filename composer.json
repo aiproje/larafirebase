@@ -1,7 +1,7 @@
 {
-    "name": "kutia-software-company/larafirebase",
+    "name": "dev0ehab-software-company/larafirebase",
     "description": "Laravel Firebase Cloud Messaging.",
-    "homepage": "https://github.com/kutia-software-company/larafirebase",
+    "homepage": "https://github.com/dev0ehab-software-company/larafirebase",
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kutia\\Larafirebase\\": "src/"
+            "dev0ehab\\Larafirebase\\": "src/"
         },
         "files": [
             "src/Helpers/All.php"
@@ -24,18 +24,12 @@
     "config": {
         "sort-packages": true
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/dev0ehab/larafirebase"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
         "laravel": {
             "providers": [
-                "Kutia\\Larafirebase\\Providers\\LarafirebaseServiceProvider"
+                "dev0ehab\\Larafirebase\\Providers\\LarafirebaseServiceProvider"
             ]
         }
     }

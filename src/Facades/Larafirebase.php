@@ -1,6 +1,6 @@
 <?php
 
-namespace Kutia\Larafirebase\Facades;
+namespace dev0ehab\Larafirebase\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
