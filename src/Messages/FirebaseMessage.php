@@ -92,7 +92,9 @@ class FirebaseMessage
     public function asNotification($deviceTokens)
     {
         if ($this->fromArray) {
-            return Larafirebase::fromArray($this->fromArray)->sendNotification($deviceTokens);
+            return Larafirebase::fromArray($this->fromArray)
+            ->withAdditionalData($this->additionalData)
+            ->sendNotification($deviceTokens);
         }
 
         return Larafirebase::withTitle($this->title)
